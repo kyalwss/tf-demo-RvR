@@ -10,7 +10,7 @@ module "db_module" {
 
 # Testing Kyal's Private Registry
 module "tfc-getting-started" {
-  source = "supportmendkyal.jfrog.io/terraform__hashicorp/tfc-getting-started-2/aws"
+  source = "supportmendkyal.jfrog.io/terraform__hashicorp/tfc-getting-started-2/fakewebservices"
   version = "1.2.0"
 }
   
