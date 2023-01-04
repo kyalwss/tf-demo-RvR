@@ -10,8 +10,8 @@ module "db_module" {
 
 # Testing Kyal's Private Registry
 module "tfc-getting-started" {
-  source = "supportmendkyal.jfrog.io/terraform__hashicorp-getting-started/tfc-getting-started/aws"
-  version = "1.0"
+  source = "supportmendkyal.jfrog.io/terraform__hashicorp/tfc-getting-started-2/aws"
+  version = "1.2.0"
 }
   
 # Public module1; public, but remote tf registry, tfaws demo modules
